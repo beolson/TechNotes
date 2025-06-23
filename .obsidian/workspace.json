@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/UV.md",
+                "file": "Proxmox VE/PCIE Passthrough.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UV"
+              "title": "PCIE Passthrough"
             }
           }
         ]
@@ -170,8 +170,22 @@
   },
   "active": "57c6244012e6b69f",
   "lastOpenFiles": [
-    "Welcome.md",
+    "Proxmox VE/Lets Encrypt.md",
+    "Proxmox VE/PCIE Passthrough.md",
+    "Proxmox VE/Images/Pasted image 20250622134329.png",
+    "Proxmox VE/Images/Pasted image 20250622134307.png",
+    "Proxmox VE/Images/Pasted image 20250622134255.png",
+    "Proxmox VE/Images/Pasted image 20250622134246.png",
+    "Proxmox VE/Images/Pasted image 20250622134232.png",
+    "Proxmox VE/Images/Pasted image 20250622134213.png",
+    "Proxmox VE/Images/Pasted image 20250622134127.png",
+    "Proxmox VE/Images",
+    "Proxmox VE/Images/Pasted image 20250622134038.png",
+    "Cloudflare/Get a token.md",
+    "Cloudflare",
     "Python/UV.md",
+    "Proxmox VE",
+    "Welcome.md",
     "Python"
   ]
 }
