@@ -7,4 +7,3 @@
 - `uv tool install streamlit` - install streamlit as a tool
 - `uv tool run streamlit` or `uvx streamlit` - run the streamlit tool
 - `uv run main.py` - run the main.py script
-- 
