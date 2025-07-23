@@ -7,7 +7,7 @@ dmesg | grep -e DMAR -e IOMMU
 dmesg | grep -e 'remapping'
 pvesh get /nodes/pve1/hardware/pci --pci-class-blacklist ""
 more /etc/modprobe.d/blaclist.conf
-more /etc/modprobe.d/blacklist.conf
+touch /etc/modprobe.d/blacklist.conf
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf 
 echo "blacklist nvidia*" >> /etc/modprobe.d/blacklist.conf 
 more /etc/modprobe.d/blacklist.conf
