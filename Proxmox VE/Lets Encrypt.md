@@ -8,7 +8,7 @@ We need to create two accounts in Proxmox so we can generate staging and product
 
 1. In the left pane click on **Datacenter**, then in the middle pane select **ACME**, and in the right pane click on **Add** under **Accounts**.
 
-![[Pasted image 20250622134038.png]]
+![[./Images/Pasted image 20250622134038.png]]
 
 
 2. Enter the following information:
