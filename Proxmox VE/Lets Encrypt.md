@@ -8,7 +8,8 @@ We need to create two accounts in Proxmox so we can generate staging and product
 
 1. In the left pane click on **Datacenter**, then in the middle pane select **ACME**, and in the right pane click on **Add** under **Accounts**.
 
-![[./Images/Pasted image 20250622134038.png]]
+
+![screenshot](./Images/Pasted%20image%2020250622134038.png)
 
 
 2. Enter the following information:
@@ -19,7 +20,7 @@ We need to create two accounts in Proxmox so we can generate staging and product
 **Accept TOS:** Tick box
 
 Click **Register**.
-![[Pasted image 20250622134127.png]]
+![screenshot](./Images/Pasted%20image%2020250622134127.png)
 
 3. Create another account for production:
 
@@ -29,8 +30,7 @@ Click **Register**.
 **Accept TOS:** Tick box
 
 Click Register.
-
-![[Pasted image 20250622134213.png]]
+![screenshot](./Images/Pasted%20image%2020250622134213.png)
 
 You should now see two accounts listed.
 ![[Pasted image 20250622134232.png]]
@@ -47,8 +47,8 @@ The ACME DNS Plugin is what contains the necessary code to talk to the Cloudflar
 **CF_Token=** Your Cloudflare DNS API Token (Not Global token)
 
 Click **Add**.
+![screenshot](./Images/Pasted%20image%2020250622134246.png)
 
-![[Pasted image 20250622134246.png]]
 ## Configure Domain ACME Challenge
 
 This step configures the domain name that we want the certificate issued to. 
@@ -62,7 +62,8 @@ This step configures the domain name that we want the certificate issued to. 
 
 Click on **Create**.
 
-![[Pasted image 20250622134255.png]]
+![screenshot](./Images/Pasted%20image%2020250622134255.png)
+
 ## Minting your Let's Encrypt SSL Certificate
 
 This section will mint your staging and production certificates. If your staging certificate request is a success, then proceed to doing the Production request. Let’s Encrypt rate limits production requests so ensure everything works in Staging before doing a Production request.
@@ -70,8 +71,7 @@ This section will mint your staging and production certificates. If your staging
 1. Under **ACME** and next to **Using Account:** click on **Edit**. Select Staging, then click **Apply**.  
 2. Click on the domain you added. Click on **Order Certificates Now**.  
 3. Monitor the Task viewer for any errors. If everything is successful Promox will restart its web server and you can refresh your browser. Your browser will still show an invalid SSL certificate, but if you look at the properties you will see it’s issued by Let’s Encrypt staging.  
-  
-![[Pasted image 20250622134307.png]]
+![screenshot](./Images/Pasted%20image%2020250622134307.png)
 
 
 
@@ -80,5 +80,4 @@ This section will mint your staging and production certificates. If your staging
 6. Monitor the Task viewer for any errors. If all goes well the Proxmox UI will restart, then refresh your browser and make sure you are connecting via your domain’s FQDN and port **8006**. You should not see any SSL certificate errors in your browser.  
   
 **Note:** Some browsers may need you to close the old Proxmox webpage and open a new tab/window with the FQDN to get rid of the certificate warning. 
-
-![[Pasted image 20250622134329.png]]
+![screenshot](./Images/Pasted%20image%2020250622134329.png)
