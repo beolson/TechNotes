@@ -35,3 +35,10 @@
     - `winget install -e --id Microsoft.AzureCLI`
 - Azure Dev CLI
     - `winget install -e --id Microsoft.Azd`
+- PowerShell
+    - Enable unsigned scripts in Powershell 
+    - `Set-ExecutionPolicy RemoteSigned`
+- Install WSL
+    - `wsl --install`
+    - `wsl --set-version 2`
+    - Run SystemScripts/wsl/System-Up.ps1
