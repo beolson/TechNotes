@@ -30,7 +30,7 @@
     - `ssh-keygen -t rsa-sha2-512`
 - Push that SSK Key to Github
     - `gh auth login -h github.com -p https -s admin:public_key`
-    - `gh ssh-key add ~/.ssh/id_rsa.pub`
+    - `gh ssh-key add $home\.ssh\id_rsa.pub`
 - Azure CLI
     - `winget install -e --id Microsoft.AzureCLI`
 - Azure Dev CLI
